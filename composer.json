@@ -22,8 +22,7 @@
 		"PHP" : ">=5.2"
 	},
 	"autoload": {
-		"psr-0": { "Less": "lib/" },
-		"classmap": ["lessc.inc.php"]
+		"classmap": ["lessc.inc.php", "lib/Less/*"]
 	},
 	"bin": [
 		"bin/lessc"
